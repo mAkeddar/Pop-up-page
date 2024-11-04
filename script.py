@@ -8,3 +8,6 @@ qr = qrcode.make(page_url)
 
 # Save the QR code as an image
 qr.save("location_qr_code.png")
+print("QR code saved as location_qr_code.png")
+
+# Parse a csv file   

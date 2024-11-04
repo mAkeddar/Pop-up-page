@@ -3,11 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Location Page</title>
+    <title>Spotted Boutique</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f1f1e5; /* Light beige background */
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px dashed #bfbfbf; /* Dashed border to match the example */
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .container p {
+            margin-bottom: 10px;
+            font-size: 1em;
+            color: #333;
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            margin: 20px 0;
+            background-color: #ddd; /* Placeholder background */
+        }
+
+        .map-link {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #000;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .map-link:hover {
+            color: #555;
+        }
+
+        .subtitle {
+            font-size: 1em;
+            color: #666;
+            margin-top: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Find Us Here!</h1>
-    <p>Click the link below to open the location in Google Maps.</p>
-    <a href="https://maps.google.com/?q=25+Rue+Charlot,+Paris" target="_blank">Open in Google Maps</a>
+
+<div class="container">
+    <h1>SPOTTED. BOUTIQUE</h1>
+    <p>7 - 8 December</p>
+    <p>Vintage • Upcycling • Accessories</p>
+    <p>Oriental Coffee Shop</p>
+
+    <!-- Image placeholder -->
+    <img src="https://via.placeholder.com/300x200" alt="Boutique Image" class="image">
+
+    <!-- Link to Google Maps -->
+    <a href="https://maps.google.com/?q=25+Rue+Charlot,+Paris" target="_blank" class="map-link">
+        CLICK HERE TO ACCESS THE MAP
+    </a>
+
+    <p class="subtitle">Discover our universe</p>
+</div>
+
 </body>
 </html>
